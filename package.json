@@ -1,0 +1,37 @@
+{
+    "name": "match-strings",
+    "type": "module",
+    "version": "0.0.0",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "description": "",
+    "exports": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/index.js",
+        "require": "./dist/index.cjs"
+    },
+    "scripts": {
+        "build": "bun run build.ts",
+        "prepublishOnly": "bun run build",
+        "test": "bun run test"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "bun"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/Battosuai/match-strings#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Battosuai/match-strings.git"
+    },
+    "bugs": "https://github.com/Battosuai/match-strings/issues",
+    "author": "MD. Asifur Rahman <iamjiban@gmail.com>",
+    "devDependencies": {
+        "@types/bun": "^1.2.18",
+        "bun-plugin-dts": "^0.3.0"
+    }
+}
